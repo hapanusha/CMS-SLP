@@ -22,10 +22,26 @@ issues, as well as missing features.
 Installation
 --------------------
 
-1. Download the CMS folder from the link below
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+1. Download the CMS-SLP zip folder from the link below
+https://github.com/hapanusha/CMS-SLP.git
 
-2. Extract the folder and place the extracted folder in to the root folder of the 
+2. upload the downloaded zip file to your domain root folder ("public html" in windows server OR "var" in linux server)
+
+3. Extract the folder here
+
+4. Go to MySQL and create a user
+
+5. Create a database and import the "cms.sql" database file.
+
+6. Edit the files mentioned below:
+
+	(1) /cms/application/config/config.php : set the base url here
+	
+	
+	(2) /cms/application/config/database.php : edit the default variable (hostname, username, password, database)
+		
+
+
 
 
 
